@@ -1,3 +1,6 @@
+// This page implicitly uses AppLayout because AppLayout wraps {children} in a higher order component or layout.
+// If not, ensure AppLayout wraps the content here.
+
 import AppLayout from '@/components/layout/AppLayout';
 import SalesSummary from '@/components/dashboard/SalesSummary';
 import SalesChart from '@/components/dashboard/SalesChart';
