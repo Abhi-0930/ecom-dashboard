@@ -6,7 +6,6 @@ A modern, professional e-commerce analytics dashboard built with Next.js, featur
 
 1. **Add your Gemini API key to `.env`**
    ```env
-   GOOGLE_AI_API_KEY=your_gemini_api_key_here
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
