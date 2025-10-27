@@ -6,28 +6,28 @@ import { ChartContainer, ChartTooltipContent, ChartLegend, ChartLegendContent } 
 import type { ChartConfig } from "@/components/ui/chart";
 
 const chartData = [
-  { month: "Jan", revenue: 1860, expenses: 800 },
-  { month: "Feb", revenue: 3050, expenses: 1200 },
-  { month: "Mar", revenue: 2370, expenses: 1000 },
-  { month: "Apr", revenue: 4830, expenses: 1500 },
-  { month: "May", revenue: 2090, expenses: 900 },
-  { month: "Jun", revenue: 4120, expenses: 1300 },
-  { month: "Jul", revenue: 3580, expenses: 1100 },
-  { month: "Aug", revenue: 5200, expenses: 1600 },
-  { month: "Sep", revenue: 3900, expenses: 1400 },
-  { month: "Oct", revenue: 4500, expenses: 1700 },
-  { month: "Nov", revenue: 3200, expenses: 1150 },
-  { month: "Dec", revenue: 5800, expenses: 1900 },
+  { month: "Jan", revenue: 18600, expenses: 8000 },
+  { month: "Feb", revenue: 30500, expenses: 12000 },
+  { month: "Mar", revenue: 23700, expenses: 10000 },
+  { month: "Apr", revenue: 48300, expenses: 15000 },
+  { month: "May", revenue: 20900, expenses: 9000 },
+  { month: "Jun", revenue: 41200, expenses: 13000 },
+  { month: "Jul", revenue: 35800, expenses: 11000 },
+  { month: "Aug", revenue: 52000, expenses: 16000 },
+  { month: "Sep", revenue: 39000, expenses: 14000 },
+  { month: "Oct", revenue: 45000, expenses: 17000 },
+  { month: "Nov", revenue: 32000, expenses: 11500 },
+  { month: "Dec", revenue: 58000, expenses: 19000 },
 ];
 
 const chartConfig = {
   revenue: {
     label: "Revenue",
-    color: "hsl(var(--chart-1))",
+    color: "hsl(var(--chart-1))", // Primary Blue
   },
   expenses: {
     label: "Expenses",
-    color: "hsl(var(--chart-2))",
+    color: "hsl(var(--chart-2))", // Accent Green
   },
 } satisfies ChartConfig;
 
